@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+h1{
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  mix-blend-mode: overlay;
+  font-size: 1em;
+ 
+  border-radius: 500px;
+  margin-left: 415px;
+  margin-right: 415px;
+  margin-bottom: 100px;
+  background-image: linear-gradient(45deg,
+  grey,grey,grey,grey,blue,blue,blue,aqua,aqua);
+  background-size: 500%;
+  background-position: left;
+  transition: background-position 2s;
+}
+h1:hover{
+  background-position: right;
+  
+}
+
+
+
+button{
+  background-image: linear-gradient(45deg,grey,grey,blue,aqua);
+  background-position: left;
+  background-size: 330%;
+  transition: background-position 1s;
+}
+button:hover{
+  color: white;
+  background-position: right;
+}
+nav a:hover{
+color:white;
+}
+a:hover{
+color: blue;
+}
+header {
+  background-image: url(Screenshot\ \(22\).png);
+  background-repeat: no-repeat;
+  background-color: #666;
+  padding: 145px;
+  color: #666;
+  text-align: center;
+  align-content: center;
+}
+nav {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+footer {
+  background-color: #666;
+  color: #fff;
+  padding: 20px;
+  text-align: center;}
+  
+.products, .contact, .about {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color: #666;
+  }
+
+  .new{
+    display: inline-block;
+    padding-left: 290px;
+    padding-right: 290px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px;
+    border-right: 50px;
+  }
+
+  .used{
+    display: inline-block;
+    padding-left: 290px;
+    padding-right: 290px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px;
+    border-left: 50px;
+  }
+  
+  
