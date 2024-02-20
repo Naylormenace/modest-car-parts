@@ -50,8 +50,10 @@ header {
   background-image: url(Screenshot\ \(22\).png);
   background-repeat: no-repeat;
   background-color: #666;
+  background-size: cover;
+  
   width: auto;
-  height: 50%;
+  height: auto;
   padding: 150px;
   color: #666;
   text-align: center;
