@@ -6,15 +6,14 @@ body {
   color: #333;
 }
 h1{
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
   mix-blend-mode: overlay;
   font-size: 1em;
- 
-  border-radius: 500px;
-  margin-left: 415px;
-  margin-right: 415px;
+  border-radius: 300px;
+  margin-left: 43%;
+  margin-right: 43%;
   margin-bottom: 100px;
   background-image: linear-gradient(45deg,
   grey,grey,grey,grey,blue,blue,blue,aqua,aqua);
@@ -24,7 +23,7 @@ h1{
 }
 h1:hover{
   background-position: right;
-  
+  color: lightcyan;
 }
 
 
@@ -45,15 +44,21 @@ color:white;
 a:hover{
 color: blue;
 }
+
+
 header {
   background-image: url(Screenshot\ \(22\).png);
   background-repeat: no-repeat;
   background-color: #666;
-  padding: 145px;
+  width: auto;
+  height: 50%;
+  padding: 150px;
   color: #666;
   text-align: center;
   align-content: center;
 }
+
+
 nav {
   background-color: #666;
   padding: 10px;
