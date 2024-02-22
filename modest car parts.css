@@ -12,9 +12,11 @@ h1{
   mix-blend-mode: overlay;
   font-size: 1em;
   border-radius: 300px;
-  margin-left: 43%;
-  margin-right: 43%;
-  margin-bottom: 100px;
+  margin-left: 43.5%;
+  margin-right: 43.5%;
+  margin-top: 7.5%;
+  margin-bottom: 7.5%;
+  
   background-image: linear-gradient(45deg,
   grey,grey,grey,grey,blue,blue,blue,aqua,aqua);
   background-size: 500%;
@@ -47,12 +49,16 @@ color: blue;
 
 
 header {
-  background-image: url(Screenshot\ \(22\).png);
+  background-image: url(Screenshot\ \(23\).png);
   background-repeat: no-repeat;
   background-color: #666;
   background-size: cover;
-  padding: 12%;
-  
+  background-position: center;
+  padding-top: 7.5%;
+  padding-bottom: 15%;
+  padding-right: 10%;
+  padding-left: 10%;
+  height: fit-content;
   color: #666;
   text-align: center;
   align-content: center;
@@ -105,5 +111,4 @@ footer {
     border: 5px;
     border-left: 50px;
   }
-  
   
