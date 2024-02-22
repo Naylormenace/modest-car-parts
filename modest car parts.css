@@ -6,7 +6,7 @@ body {
   color: #333;
 }
 h1{
-  color: black;
+  color: white;
   text-transform: uppercase;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
   mix-blend-mode: overlay;
@@ -18,7 +18,7 @@ h1{
   margin-bottom: 7.5%;
   
   background-image: linear-gradient(45deg,
-  grey,grey,grey,grey,blue,blue,blue,aqua,aqua);
+  grey,grey,grey,grey,cyan,cyan,cyan,aqua,aqua);
   background-size: 500%;
   background-position: left;
   transition: background-position 2s;
@@ -31,10 +31,13 @@ h1:hover{
 
 
 button{
-  background-image: linear-gradient(45deg,grey,grey,blue,aqua);
+  background-image: linear-gradient(45deg,#114477,#114477,#114477,
+  #114477,#114477,#114477,#27ae60,aqua,lightcyan,
+  #5588AA,#5588AA,#5588AA,#5588AA,#5588AA);
   background-position: left;
   background-size: 330%;
   transition: background-position 1s;
+  color:white;
 }
 button:hover{
   color: white;
@@ -49,7 +52,7 @@ color: blue;
 
 
 header {
-  background-image: url(Screenshot\ \(23\).png);
+  background-image: url(Screenshot\ \(24\).png);
   background-repeat: no-repeat;
   background-color: #666;
   background-size: cover;
@@ -66,7 +69,7 @@ header {
 
 
 nav {
-  background-color: #666;
+  background-color: #114477;
   padding: 10px;
   text-align: center;
 }
@@ -81,7 +84,7 @@ nav a {
   padding: 20px;
 }
 footer {
-  background-color: #666;
+  background-color: #114477;
   color: #fff;
   padding: 20px;
   text-align: center;}
@@ -89,7 +92,7 @@ footer {
 .products, .contact, .about {
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
-    background-color: #666;
+    background-color: #336699;
   }
 
   .new{
