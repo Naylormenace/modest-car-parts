@@ -5,12 +5,18 @@ body {
   background-color: #f0f0f0;
   color: #333;
 }
+
+h1:hover{
+  background-position: right;
+  color: lightcyan;
+}
+
 h1{
   color: white;
   text-transform: uppercase;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
   mix-blend-mode: overlay;
-  font-size: 18px;
+  font-size: 15px;
   border-radius: 300px;
   margin-left: 42.5%;
   margin-right: 42.5%;
@@ -24,12 +30,6 @@ h1{
   background-position: left;
   transition: background-position 1s;
 }
-h1:hover{
-  background-position: right;
-  color: lightcyan;
-}
-
-
 
 button{
   background-image: linear-gradient(45deg,#114477,#114477,#114477,
@@ -56,7 +56,7 @@ cursor: pointer;
 
 
 header {
-  background-image: url(Screenshot\ \(24\).png);
+  background-image: url(Screenshot\ \(23\).png);
   background-repeat: no-repeat;
   background-color: #666;
   background-size: cover;
@@ -92,30 +92,3 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;}
-  
-.products, .contact, .about {
-    font-family: 'Times New Roman', Times, serif;
-    color: #fff;
-    background-color: #336699;
-  }
-
-  .new{
-    display: inline-block;
-    padding-left: 290px;
-    padding-right: 290px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 5px;
-    border-right: 50px;
-  }
-
-  .used{
-    display: inline-block;
-    padding-left: 290px;
-    padding-right: 290px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 5px;
-    border-left: 50px;
-  }
-  
