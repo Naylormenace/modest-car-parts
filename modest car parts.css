@@ -97,6 +97,23 @@ footer {
     background-color: #336699;
   }
 
+
+  .container button{
+    background-image: linear-gradient(45deg,#114477,#114477,#114477,
+    #114477,#114477,#114477,#27ae60,aqua,lightcyan,
+    #5588AA,#5588AA,#5588AA,#5588AA,#5588AA);
+    background-position: left;
+    background-size: 330%;
+    transition: background-position 1s;
+    color:white;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .container button:hover{
+    color: white;
+    background-position: right;
+    cursor: pointer;}
+
   .used{
     display: inline-block;
     padding-left: 210px;
