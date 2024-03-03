@@ -116,8 +116,7 @@ footer {
 
   .used{
     display: inline-block;
-    padding-left: 18%;
-    padding-right: 18%;
+    width: 49%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -125,8 +124,7 @@ footer {
 
   .new{
     display: inline-block;
-    padding-left: 18%;
-    padding-right: 18%;
+    width: 49%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
