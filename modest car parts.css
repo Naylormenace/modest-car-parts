@@ -110,7 +110,7 @@ footer {
     font-size: 15px;
   }
   .container button:hover{
-    color: white;
+    color: black;
     background-position: right;
     cursor: pointer;}
 
@@ -131,17 +131,23 @@ footer {
     padding-bottom: 10px;
     text-align: center;
   }
-
- 
+  span {
+    margin: 5%;
+  }
+ .call{
+  text-align: center;
+ }
   .contact-info {
     max-height: 100px;
   }
   .contact-info div{
     display: inline-block;
-    margin-left: 105px;
+    margin: auto;
+  
   }
   #icon {
     height: 20px;
+  
   }
   .icons div{
     display: inline-block;
