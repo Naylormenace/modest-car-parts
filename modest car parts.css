@@ -141,7 +141,7 @@ footer {
     max-height: 100px;
   }
   .contact-info div{
-    display: inline-block;
+    display: inline-flex;
     margin: auto;
   
   }
