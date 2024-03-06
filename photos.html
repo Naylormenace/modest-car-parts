@@ -7,9 +7,11 @@
   <title>MCP photos</title>
 </head>
 <body>
+  <header>
+    <h1>photos</h1>
+  </header>
 
  <div id="image-track" class="airconpumps">
-
   <img src="airconpump1.jpg" draggable="false">
   <img src="airconpump2.jpg" draggable="false">
   <img src="airconpump3.jpg" draggable="false">
@@ -20,41 +22,9 @@
   <img src="airconpump8.jpg" draggable="false">
   <img src="airconpump9.jpg" draggable="false">
   <img src="airconpump10.jpg" draggable="false">
-  
+  <script src="photos.js"></script>
  </div>
 
+ 
 </body>
-<script>const track = document.getElementById("image-track");
-
-  window.onmousedown = e => {
-    track.dataset.mouseDownAt = e.clientX
-  }
-  
-  window.onmouseup = () => {
-    track.dataset.mouseDownAt = "0";
-    track.dataset.prevPercentage = track.dataset.percentage;
-  }
-  
-  window.onmousemove = e => {
-    if(track.dataset.mouseDownAt === "0") return;
-  
-    const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
-          maxDelta = window.innerWidth / 2;
-  
-    const percentage = (mouseDelta / maxDelta) * -100;
-          nextPercentage = parseFloat(track.dataset.prevPercentage) + percentage;
-  
-    track.dataset.percentage = nextPercentage;
-  
-    track.animate({
-      transform = 'translate($(nextPercentage), -50%)'
-  },{duration: 1200, fill: "forwards" });
-  }
-  
-  for(const image of track.getElementsByClassName("image")) {
-    image.animate({
-      objectPosition = '${100 + nextPercentage} center'}, 
-      ;{ duration: 1200, fill "forwards"}
-  }
-   </script>
 </html>
