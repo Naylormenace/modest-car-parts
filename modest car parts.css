@@ -139,7 +139,7 @@ footer {
   width:10%;
  }
   .contact-info {
-    max-height: 100px;
+    height: 30%;
   }
   .contact-info div{
     display: inline-flex;
