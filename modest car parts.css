@@ -135,17 +135,19 @@ footer {
  .call{
   text-align: center;
  }
+ #call {
+  width:10%;
+ }
   .contact-info {
     max-height: 100px;
   }
   .contact-info div{
     display: inline-flex;
     margin: auto;
-  
+    width: 35%;
   }
   #icon {
     height: 20px;
-  
   }
   .icons div{
     display: inline-block;
